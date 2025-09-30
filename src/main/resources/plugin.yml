@@ -1,0 +1,15 @@
+name: BattleRoyale
+main: com.example.battleroyale.BattleRoyalePlugin
+version: 0.1
+api-version: "1.21"
+authors: ["YourName"]
+description: Simple Battle Royale minigame with border shrink and last-player-standing.
+commands:
+  br:
+    description: Battle Royale commands
+    usage: "/br <join|leave|start|setcenter|status>"
+    aliases: [battleroyale]
+permissions:
+  br.admin:
+    description: Allows starting and configuring matches
+    default: op
